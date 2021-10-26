@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    max-resolution: 0;
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+}
+
+main {
+    height: 100vh;
+    background-color:aqua ;
+}
+
+.Img-main_background {
+    background-image: url('./assests/imgs/paisaje-de-ciudad-futurista-artwork_3840x2160_xtrafondos.com.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* div {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+} */
+
+.main-container-Pomodoro {
+    width: 50%;
+    height: 80%;
+    background-color: aqua;
+}
+
+.main-section-breaks {
+    width: 100%;
+    height: 20%;
+    background-color:bisque;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 5px;
+}
+
+.main-boton_time {
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.main-section_timer {
+    width: 100%;
+    height: 80%;
+    background-color: red;
+}
+.main-section_timer div {
+    width: 100%;
+    height: 50%;
+    background-color:salmon;
+}
+
+.section-timer_setting  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section-timer_setting a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.button-start_timer {
+    width: 200px;
+    height: 50px;
+}
+.section-fhater-pomo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-fhater-pomo .section-timer_pomodoro {
+    width: 90%;
+    height: 80%;
+    background-color: white;
+}
