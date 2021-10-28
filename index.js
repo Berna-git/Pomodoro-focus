@@ -1,5 +1,27 @@
-let date = new Date('Tue Oct 26 2022 16:48:37 GMT-0300')
-let dateNow = new Date();
-let miliSeconds =  date - dateNow;
-console.log((((miliSeconds / 1000) / 60) / 60) / 24);
-console.log(dateNow.getHours())
+// setInterval(() => {
+//     let dateNow = new Date();
+//     console.log(dateNow)
+// }, 1000);
+
+// setInterval(function(){ alert("Hello"); }, 3000);
+
+// setTimeout(()=>{
+//      alert("Hello"); 
+//     }, 3000);
+
+const getTimeNow = () => {
+    let timePomodorMinutes = new Date().getMinutes();
+    let timePomodorhours = new Date().getHours();
+    let timePomodorSeconds = new Date().getSeconds();
+    let timeNow = `${timePomodorhours} : ${timePomodorMinutes} : ${timePomodorSeconds} `;
+    return timeNow;
+}
+
+const timePomoAddMinutes = () => {
+    let timeAddMinutes = new Date()                 
+}
+
+setInterval(() => {
+    // let timePomodoro = getTimeNow()
+    console.log(getTimeNow()); 
+}, 1000);
