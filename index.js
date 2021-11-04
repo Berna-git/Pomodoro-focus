@@ -10,18 +10,31 @@
 //     }, 3000);
 
 const getTimeNow = () => {
-    let timePomodorMinutes = new Date().getMinutes();
-    let timePomodorhours = new Date().getHours();
-    let timePomodorSeconds = new Date().getSeconds();
-    let timeNow = `${timePomodorhours} : ${timePomodorMinutes} : ${timePomodorSeconds} `;
+    let timeUse = new Date();
+    // timeUse = timeUse - 1000;
+    let timePomodorMinutes = timeUse.getMinutes();
+    let timePomodorSeconds = timeUse.getSeconds();
+    // console.log(timeUse);
+    console.log(timeUse);
+    let timeNow = `${timePomodorMinutes} : ${timePomodorSeconds} `;
     return timeNow;
 }
 
-const timePomoAddMinutes = () => {
-    let timeAddMinutes = new Date()                 
-}
 
-setInterval(() => {
-    // let timePomodoro = getTimeNow()
-    console.log(getTimeNow()); 
-}, 1000);
+// setInterval(() => {
+//     // let timePomodoro = getTimeNow()
+//     console.log(getTimeNow()); 
+// }, 1000);
+
+
+// for(let i = 60; i > 0; i = i - 1){
+//     setTimeout(() => {
+//         console.log(i);
+//     }, 1000);          
+// }
+
+let i = 60;
+while(i > 0) {
+        console.log(i)        
+    i--;
+}
