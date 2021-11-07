@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
-    max-resolution: 0;
+    padding: 0;
     margin: 0;
+    font-size: 10px;
 }
 
 body {
@@ -51,7 +52,11 @@ main {
     background-color: rebeccapurple;
     width: 100%;
     height: 100%;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
+    font-size: 2rem;
+}
+.main-boton_time p {
+    font-size: 2rem;
 }
 
 .main-section_timer {
@@ -90,5 +95,14 @@ main {
 .section-fhater-pomo .section-timer_pomodoro {
     width: 90%;
     height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
+
+}
+.section-timer_pomodoro p {
+    font-size: 6rem;
+    font-weight: 600;
+    letter-spacing: 1rem;
 }
