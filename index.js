@@ -58,7 +58,3 @@ function startTimer() {
     }, 1);
     
 }
-// console.log(seconds)
-// document.getElementById("myBtn").addEventListener("click", function() {
-//     document.getElementById("demo").innerHTML = "Hello World";
-//   });
