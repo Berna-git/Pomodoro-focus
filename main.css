@@ -41,7 +41,7 @@ main {
     justify-content: space-between;
     gap: 5px;
     padding: 5px;
-    margin: 10px;
+    /* margin: 10px; */
     
 }
 
@@ -265,5 +265,37 @@ footer p {
 }
 
 @media(max-width:480px) {
+    .main-container-Pomodoro {
+        width: 80%;
+        margin-left: -14px;
+    }
+    .section-article_info h3 {
+        font-size: 1.8rem;
+    }
+    .section-article_info p {
+        font-size: 1.5rem;
+    }
+    .section-article_info ol {
+        font-size: 1.5rem;
+    }
 
+    .section-article_info-noTask {
+        height: auto;
+    }
+    .section-Pomodoro_info  {
+        height: 130vh;
+   }
+    body {
+        height: 230vh;
+    }
+    footer p{
+        font-size: 1.5rem;
+        align-self: center;
+    }
+}
+
+@media(max-width:370px) {
+    body {
+        height: 250vh;
+    }
 }
