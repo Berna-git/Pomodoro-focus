@@ -66,6 +66,8 @@ main {
     -webkit-backdrop-filter: blur(20px);
     border-radius: 16px;
     border: 2px solid rgba(189, 87, 87, 0.56);
+    cursor: pointer;
+
 }
 .main-boton_time:focus {
     background: rgba(189, 87, 87, 0.51);
@@ -74,7 +76,6 @@ main {
     -webkit-backdrop-filter: blur(20px);
     border-radius: 16px;
     border: 2px solid rgba(189, 87, 87, 0.56);
-    cursor: pointer;
 }
 
 .main-section_timer {
@@ -222,6 +223,47 @@ footer p {
     margin-right: 1rem;
 }
 
-@media screen {
-    
+
+@media (max-width: 950px) {
+    body {
+        height: 215vh;
+        position: relative;
+    }
+    footer {
+        position: absolute;
+        top: 100%;
+    }
+    .section-Pomodoro_info {
+        height: 120vh;
+    }
+    .section-timer_pomodoro p {
+        font-size: 8rem;
+    }
+    .main-boton_time {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+}
+
+@media(max-width:630px){
+    body {
+        height: 260vh;
+    }
+     .section-Pomodoro_info  {
+         height: 170vh;
+    }
+    .main-boton_time {
+        font-size: 1.8rem;
+    }
+    .section-timer_pomodoro p {
+        font-size: 6rem;
+    }
+    .button-start_timer {
+        width: 70%;
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width:480px) {
+
 }
