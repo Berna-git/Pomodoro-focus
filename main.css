@@ -25,13 +25,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .main-container-Pomodoro {
     width: 50%;
     height: 80%;
-    
 }
 
 .main-section-breaks {
@@ -41,8 +39,6 @@ main {
     justify-content: space-between;
     gap: 5px;
     padding: 5px;
-    /* margin: 10px; */
-    
 }
 
 .main-boton_time {
@@ -67,7 +63,6 @@ main {
     border-radius: 16px;
     border: 2px solid rgba(189, 87, 87, 0.56);
     cursor: pointer;
-
 }
 .main-boton_time:focus {
     background: rgba(189, 87, 87, 0.51);
@@ -156,7 +151,6 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .section-article_info {
@@ -187,7 +181,6 @@ main {
     line-height: 3rem;
 }
 
-
 .section-article_info ol {
     padding: 1.8rem;
     margin-left: 15px;
@@ -208,7 +201,6 @@ footer {
 footer a {
     width: 50px;
     align-self: flex-start;
-
 }
 
 footer a i {
@@ -278,7 +270,6 @@ footer p {
     .section-article_info ol {
         font-size: 1.5rem;
     }
-
     .section-article_info-noTask {
         height: auto;
     }
